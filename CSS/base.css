@@ -1,0 +1,50 @@
+@font-face {
+    font-family: chirp-extended;
+    src: url(./fuentes/chirp-extended-heavy-web.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: chirp;
+    src: url(./fuentes/chirp-bold-web.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: chirp;
+    src: url(./fuentes/chirp-regular-web.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Google Sans";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Google Sans Medium"), url(./fuentes/ProductSans-Medium\ \(1\).woff) format("woff");
+}
+
+:root {
+    --brand-color: #1d9bf0;
+    --gray-color: #cfd9de;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+    font-family: chirp-extended;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+

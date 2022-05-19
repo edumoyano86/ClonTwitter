@@ -1,0 +1,185 @@
+.header--icon {
+    width: 35px;
+    height: 35px;
+}
+
+.main--titles {
+    margin: 20px 0;
+    font-family: chirp-extended;
+    font-weight: 700;
+}
+
+h2.titles--title {
+    font-size: 1.8rem;
+    margin-bottom: 33px;
+}
+
+h1.titles--title {
+    max-width: 500px;
+    font-size: 3.2rem;
+    margin-bottom: 35px;
+    line-height: 4rem;
+}
+
+.main {
+    width: 100%;
+    margin: 40px 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main--buttons {
+    width: 80%;
+    min-width: 300px;
+}
+
+.main--button {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 0;
+    border-radius: 30px;
+    font-family: chirp;
+    font-size: .9rem;
+    margin: 10px 0;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.main--button__white {
+    border: 1px solid var(--gray-color);
+    background: white;
+    color: black;
+}
+
+.main--button__blue {
+    border: 1px solid var(--gray-color);
+    background: var(--brand-color);
+    color: white;
+}
+
+a.main--button {
+    font-family: chirp;
+}
+
+img.button--icon {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.main--division {
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+
+.main--division div {
+    width: 45%;
+    border-top: 1px solid var(--gray-color);
+}
+
+.main--text {
+    width: 300px;
+    font-size: 0.7rem;
+    margin: 5px 0 20px;
+    font-family:"Roboto", sans-serif;
+    color: gray;
+}
+
+.text--link {
+    color: var(--brand-color);
+}
+
+.text--link:hover {
+    text-decoration: underline;
+}
+.main--button__white-blue {
+    text-align: center;
+    color: var(--brand-color);
+    font-family: "Roboto", sans-serif;
+
+}
+
+a.main--button__white-blue {
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: center;
+}
+
+.text--color {
+    color: black;
+}
+
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.twitter--background {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    place-content: center;
+    background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+}
+
+.twitter--img {
+    fill: rgb(255, 255, 255);
+    width: 400px;
+    height: 50%;
+}
+
+.footer{
+    width: 100%;
+    padding: 20px;
+    font-size: 0.8rem;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .footer--list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer--list li{
+    margin: 5px 10px;
+  }
+  
+  .footer--list li a{
+    color: #536471;
+  }
+
+  @media screen and (min-width: 1024px) {
+      .responsive {
+          display: flex;
+          justify-content: flex-end;
+          flex-direction: row-reverse;
+      }
+
+     
+      .twitter--background {
+          margin-top: 0;
+          display: flex;
+          max-width: 200px;
+          place-items: center;
+          /* min-width: 600px; */
+          height: 95%;
+      }
+
+      .main {
+          margin-left: 40px;  
+         width: 100%;
+         height: 500%;
+         max-width: 700px;         
+      }
+  }
